@@ -25,4 +25,5 @@ function equal() {
     }
     result = newEval(Numbers);
     document.querySelector('.display').innerHTML = `<h1>${result}</h1>`;
+    Numbers = "";
 };
